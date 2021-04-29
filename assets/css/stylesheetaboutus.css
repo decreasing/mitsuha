@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e8e9eb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* start of nav bar */
+nav{
+  height: 60px;
+  background-color: #444444;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 80px;
+}
+
+nav ul li{
+  background:#444444;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+}
+
+nav ul li a:hover{
+  background: gray;
+}
+nav ul ul{
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li{
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -60px;
+  left: 150px; 
+}
+/* end of nav bar */
+.logo{
+  margin-left:30px;
+  width: 130px;
+  height: auto;
+}
+
+.container {
+  margin: 20px 40px;
+  color: #1a1a1a;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 48%;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.heading {
+  font-size: 60px;
+}
+.heading1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.groupmember {
+  flex-basis: 260px;
+}
+
+.groupmember .groupmember-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.groupmember:hover .groupmember-img {
+  filter: grayscale(0);
+}
+.groupmember h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #383838;
+}
+
+
+.name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.groupmember p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+  .group {
+    flex-direction: column;
+  }
+
+  .groupmember {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .groupmember p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .heading span {
+    font-size: 15px;
+  }
+
+  .group {
+    margin: 20px 0;
+  }
+
+  .groupmember p {
+    margin: 20px 10px 80px 10px;
+  }
+}

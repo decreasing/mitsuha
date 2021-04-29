@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+
+* {
+    transition: 300ms;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8e9eb;
+    font-weight: 400;
+    font-size: 14px;
+    color: #010b26;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-weight: 400;
+}
+h1{
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #e8e9eb;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    color: #000;
+}
+
+a:hover {
+    color: #a4161a;
+}
+
+
+
+/* start of nav bar */
+nav{
+	height: 60px;
+	background-color: #444444;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 80px;
+}
+
+nav ul li{
+	background:#444444;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+}
+
+nav ul li a:hover{
+	background: gray;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px; 
+}
+/* end of nav bar */
+
+hr {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background: #a4161a;
+    border: none;
+    margin-top: -5px;
+}
+
+.headingbg{
+  background-color:#a4161a;
+  width: 18%; 
+  margin-left: 5%;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  border-radius: 3px;
+}
+
+
+.dropdown{
+	margin: 0 auto;
+}
+.logo{
+    margin-left:30px;
+	width: 130px;
+	height: auto;
+}
+
+.banner{
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.movie-card {
+    background: #ffffff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: -1px 3px 15px 5px rgba(0,0,0,0.28);
+}
+
+.movie-header {
+    padding: 0;
+    margin: 0;
+    height: 367px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrathofman{
+    background: url("../images/wrathofman.jpg");
+    background-size: cover;
+}
+.quietplacep2{
+    background: url("../images/quietplacept2.jpg");
+    background-size: cover;
+}
+.fivefeetapart{
+    background: url("../images/fivefeetapart.jpg");
+    background-size: cover;
+}
+.yourname{
+    background: url("../images/yourname.jpg");
+    background-size: cover;
+}
+.yourname{
+    background: url("../images/yourname.jpg");
+    background-size: cover;
+}
+.nogamenolife{
+    background: url("../images/nogamenolife.jpg");
+    background-size: cover;
+}
+.endgame{
+    background: url("../images/endgame.jpg");
+    background-size: cover;  
+}
+.spiritedaway{
+    background: url("../images/spiritedaway.jfif");
+    background-size: cover;    
+}
+.foreverpurge{
+    background: url("../images/theforeverpurge.jpg");
+    background-size: cover; 
+}
+.sinister{
+    background: url("../images/sinister.jpg");
+    background-size: cover;
+}
+.fivecenti{
+    background: url("../images/5centiposter.jpg");
+    background-size: cover;
+}
+.deadpool{
+    background: url("../images/deadpool.jpg");
+    background-size: cover;
+}
+.hereditary{
+    background: url("../images/hereditary.jpg");
+    background-size: cover;  
+}
+.header-icon {
+    width: 100%;
+    height: 367px;
+    line-height: 367px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 54px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+    opacity: .85;
+}
+
+.header-icon:hover {
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 74px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+}
+
+.movie-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.movie-content {
+    padding: 18px 18px 24px 18px;
+    margin: 0;
+}
+
+.movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+}
+
+.movie-title {
+    font-size: 24px;
+    margin: 0;
+    display: table-cell;
+}
+
+.movie-info {
+    margin-top: 1em;
+}
+
+.info-section {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info-section:first-of-type {
+    text-align: left;
+}
+
+.info-section:last-of-type {
+    text-align: right;
+}
+
+.info-section label {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+}
+
+.info-section span {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 500px) {
+    .movie-card {
+        width: 95%;
+        max-width: 95%;
+        margin: 1em;
+        display: block;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+}
+img{
+  height: 100%;
+  width: 100%;
+}

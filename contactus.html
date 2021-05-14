@@ -2,16 +2,89 @@
 <html  lang="en">
 <head>
     <meta charset="utf-8" >
-    <title>Silver Screen | Home</title>
+    <title>Contact Us | Home</title>
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+		h1 {
+		    font-family: 'Poppins', sans-serif, 'arial';
+		    font-weight: 600;
+		    font-size: 72px;
+		    color: #a4161a;
+		    text-align: center;
+		}
+
+		h4 {
+		    font-family: 'Roboto', sans-serif, 'arial';
+		    font-weight: 400;
+		    font-size: 20px;
+		    color: #9b9b9b;
+		    line-height: 1.5;
+		}
+
+		.styled-input {
+		    float: left;
+		    width: 293px;
+		    margin: 1rem 0;
+		    position: relative;
+		    border-radius: 4px;
+		}
+
+		.styled-input.wide { 
+		    width: 650px;
+		    max-width: 100%;
+		}
+
+		input,
+		textarea {
+		    padding: 30px;
+		    border: 0;
+		    width: 100%;
+		    font-size: 1rem;
+		    background-color: #2d2d2d;
+		    color: white;
+		    border-radius: 4px;
+		}
+
+
+		textarea {
+		    width: 100%;
+		    min-height: 15em;
+		}
+
+		.input-container {
+		    width: 650px;
+		    max-width: 100%;
+		    margin: 20px auto 25px auto;
+		}
+
+		.submit-btn {
+		    float: right;
+		    padding: 7px 35px;
+		    border-radius: 60px;
+		    display: inline-block;
+		    background-color: #a4161a;
+		    color: white;
+		    font-size: 18px;
+		    cursor: pointer;
+		    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+		    0 2px 10px 0 rgba(0,0,0,0.07);
+		    -webkit-transition: all 300ms ease;
+		    transition: all 300ms ease;
+		}
+
+
+
+    </style>
 </head>
 <body>
-	<div class="dropdown">
+<div class="dropdown">
 		<nav>
 			<a href="index.html"><img src="assets/images/logo.png" class="logo"></a>
 			<ul>
-				<li><a href="#">Movie Reviews</a>
+				<li><a href="moviereviews/index.html">Movie Reviews</a>
 					<ul>
 						<li><a href="#">Genre</a>
 							<ul>
@@ -26,7 +99,7 @@
 						
 					</ul>
 				</li>
-				<li><a href="#">Upcoming Movies</a>
+				<li><a href="upcomingmovies/index.html">Upcoming Movies</a>
 					<ul>
 						<li><a href="#">Genre</a>
 							<ul>
@@ -37,12 +110,11 @@
 								<li><a href="upcomingmovies/index.html#horror">Horror</a></li>
 								<li><a href="upcomingmovies/index.html#romance">Romance</a></li>
 							</ul>
-						</li>
 						
 					</ul>
 				</li>
 
-				<li><a href="#">Top Movies</a>
+				<li><a href="topmovies/index.html">Top Movies</a>
 					<ul>
 						<li><a href="#">Genre</a>
 							<ul>
@@ -60,15 +132,45 @@
 				<li><a href="#">Others</a>
 					<ul>
 						<li><a href="abouttheauthor.html">Author Page</a></li>
+						<li><a href="#">Contact Us</a></li>
 						<li><a href="aboutus.html">About Us</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
 					</ul>
 				</li>
 
 			</ul>
 		</nav>
 	</div>
-<!-- end of nav bar -->
+<!-- end of nav bar --><br><br>
+	<div class="row">
+			<h1>CONTACT US</h1>
+			<h4 style="text-align:center">We'd love to hear from you!</h4>
+	</div>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" placeholder="Name" required/>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" placeholder="Email" required/>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" placeholder="Phone Number "required/>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required placeholder="Message"></textarea>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<a href="mailto:quiambao.kimjoshua@ue.edu.ph"><div class="btn-lrg submit-btn">Send Message</div></a>
+			</div>
+	</div>
+
 
 
 </body>

@@ -155,21 +155,90 @@ hr {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-.wrathofman{
-    background: url("../images/wrathofman.jpg");
+/* kim start movie cards */
+.chronicle{
+    background: url("../images/chronicle.jpg");
     background-size: cover;
 }
+.tokyodrift{
+    background: url("../images/tokyo drift.jpg");
+    background-size: cover;
+}
+.johnwick3{
+    background: url("../images/johnwickparabellum.jpg");
+    background-size: cover; 
+}
+.kongskullisland{
+    background: url("../images/kong.jpg");
+    background-size: cover;
+}
+.spiderman{
+    background: url("../images/spiderman.jpg");
+    background-size: cover;
+}
+.fantasticbeast{
+    background: url("../images/fantastic.jpg");
+    background-size: cover;    
+}
+.jaws{
+    background: url("../images/jaws.jpg");
+    background-size: cover;     
+}
+.jumanji{
+    background: url("../images/jumanji.jpg");
+    background-size: cover;      
+}
+.lovemonters{
+    background: url("../images/lom.jpg");
+    background-size: cover;        
+}
+.readyplayer1{
+    background: url("../images/ready.jpg");
+    background-size: cover;     
+}
+.blueexorcist{
+    background: url("../images/blueexorcist.jpg");
+    background-size: cover;     
+}
+.konosuba{
+    background: url("../images/konosuba.jpg");
+    background-size: cover;
+}
+.weathering{
+    background: url("../images/weathering.jpg");
+    background-size: cover;
+}
+.threeidiots{
+    background: url("../images/3idiots.jpg");
+    background-size: cover;     
+}
+.monstersuniveristy{
+    background: url("../images/monstersuniversity.png");
+    background-size: cover;       
+}
+.pitchperfect{
+    background: url("../images/pitchperfect.jpg");
+    background-size: cover;     
+}
+.zombieland{
+    background: url("../images/zombieland.jpg");
+    background-size: cover;     
+}
+.alien{
+    background: url("../images/alien.jpg");
+    background-size: cover;   
+}
+.comingsoon{
+    background: url("../images/comingsoon.jpg");
+    background-size: cover;     
+}
+
 .quietplacep2{
     background: url("../images/quietplacept2.jpg");
     background-size: cover;
 }
 .fivefeetapart{
     background: url("../images/fivefeetapart.jpg");
-    background-size: cover;
-}
-.yourname{
-    background: url("../images/yourname.jpg");
     background-size: cover;
 }
 .yourname{
@@ -208,6 +277,334 @@ hr {
     background: url("../images/hereditary.jpg");
     background-size: cover;  
 }
+
+/* kim end movie cards */
+
+/* Monde Assigned Movie Cards*/
+.us{
+    background: url("../images/us.jpg");
+    background-size: cover;     
+}
+
+.midsommar{
+    background: url("../images/midsommar.jpg");
+    background-size: cover;     
+}
+
+.groundhogday{
+    background: url("../images/ground.jpg");
+    background-size: cover;    
+}
+
+.lalaland{
+    background: url("../images/lalaland.jfif");
+    background-size: cover;  
+}
+
+.thefaultinourstars{
+    background: url("../images/fault.jpg");
+    background-size: cover;  
+}
+
+.theshapeofwater{
+    background: url("../images/shape.jpg");
+    background-size: cover;      
+}
+
+.godzillavskong {
+    background: url("../images/godzilla.jpg");
+    background-size: cover; 
+}
+
+.madmaxfuryroad{
+    background: url("../images/madmaxposter.jpg");
+    background-size: cover; 
+}
+
+.spiderverse{
+    background: url("../images/spiderverse.png");
+    background-size: cover;    
+}
+
+.darkknight{
+    background: url("../images/darkknight.jpg");
+    background-size: cover;    
+}
+
+.fellowshipofthering{
+    background: url("../images/lordoftherings.jpg");
+    background-size: cover;  
+}
+
+.avatar{
+    background: url("../images/avatar.jpg");
+    background-size: cover;      
+}
+
+.kingkong{
+    background: url("../images/kingkong.jpg");
+    background-size: cover;      
+}
+
+.readyplayerone{
+    background: url("../images/readyplayerone.jpg");
+    background-size: cover;      
+}
+
+.thematrix{
+    background: url("../images/matrix.jpg");
+    background-size: cover;      
+}
+
+.therevenant{
+    background: url("../images/therevenant.jpg");
+    background-size: cover;      
+}
+
+.akira{
+    background: url("../images/akira.jpg");
+    background-size: cover;      
+}
+
+.fivecentimeters{
+    background: url("../images/5centiposter.jpg");
+    background-size: cover;      
+}
+
+.helloworld{
+    background: url("../images/helloworld.jpg");
+    background-size: cover;      
+}
+
+.spiritedaway{
+    background: url("../images/spiritedaway.jfif");
+    background-size: cover;      
+}
+
+.whisker{
+    background: url("../images/whisker.jpg");
+    background-size: cover;      
+}
+/* End of Monde Assigned Movie Cards*/
+
+/* Jer Assigned Movie Cards*/
+
+.backtothefuture{
+    background: url("../images/backtothefuture.jpg");
+    background-size: cover;      
+}
+.click{
+    background: url("../images/click.jpg");
+    background-size: cover;      
+}
+.crazyrichasians{
+    background: url("../images/crazy.jpg");
+    background-size: cover;      
+}
+.grownups{
+    background: url("../images/grownups.jpg");
+    background-size: cover;      
+}
+.wallstreet{
+    background: url("../images/wolfofwallstreet.jpg");
+    background-size: cover;      
+}
+.escaperoom{
+    background: url("../images/escaperoom.jpg");
+    background-size: cover;      
+}
+.wax{
+    background: url("../images/houseofwax.jpg");
+    background-size: cover;      
+}
+.sinister{
+    background: url("../images/sinister.jpg");
+    background-size: cover;      
+}
+.evildead{
+    background: url("../images/evildead.jpg");
+    background-size: cover;      
+}
+.shining{
+    background: url("../images/shining.jpg");
+    background-size: cover;      
+}
+.blithespirit{
+    background: url("../images/blithespiritposter.jpg");
+    background-size: cover;      
+}
+.cruella{
+    background: url("../images/cruella.jfif");
+    background-size: cover;      
+}
+.frenchexit{
+    background: url("../images/frenchexit.jpg");
+    background-size: cover;      
+}
+.spongebob{
+    background: url("../images/spongebobrun.jpg");
+    background-size: cover;      
+}
+.willy{
+    background: url("../images/willywonderlandmposter.jpg");
+    background-size: cover;      
+}
+.fiftydates{
+    background: url("../images/50firstdates.jpg");
+    background-size: cover;      
+}
+.alltheboys{
+    background: url("../images/toalltheboys.png");
+    background-size: cover;      
+}
+.forestgump{
+    background: url("../images/forestgump.jpg");
+    background-size: cover;      
+}
+.hogday{
+    background: url("../images/ground.jpg");
+    background-size: cover;      
+}
+.titanic{
+    background: url("../images/titanic.jpg");
+    background-size: cover;      
+}
+.shangchi{
+    background: url("../images/shangchi.jpg");
+    background-size: cover;      
+}
+.spacejam{
+    background: url("../images/spacejam.jpg");
+    background-size: cover;      
+}
+.uncharted{
+    background: url("../images/uncharted.jpg");
+    background-size: cover;      
+}
+
+/* End of Jer Assigned Movie Cards*/
+
+/* Start of Allen Assigned Movie Cards*/
+
+.fast9{
+    background: url("../images/fast9.jpg");
+    background-size: cover;      
+}
+
+.marvel2{
+    background: url("../images/marvel2.jpg");
+    background-size: cover;      
+}
+
+.mortalkombat{
+    background: url("../images/mortalkombat.jpg");
+    background-size: cover;      
+}
+
+.thematrix4{
+    background: url("../images/thematrix4.PNG");
+    background-size: cover;      
+}
+
+.wrathofman{
+    background: url("../images/wrathofman.jpg");
+    background-size: cover;
+}
+
+.rayaandthelastdragon{
+    background: url("../images/rayaposter.jpeg");
+    background-size: cover;
+}
+
+.zacksynderjusticeleague{
+    background: url("../images/zack.jpg");
+    background-size: cover;
+}
+
+.blackclover{
+    background: url("../images/clover.jpg");
+    background-size: cover;
+}
+
+.demonslayer{
+    background: url("../images/demonslayer.PNG");
+    background-size: cover;
+}
+
+.evangelion3{
+    background: url("../images/evangelion3.jpg");
+    background-size: cover;
+}
+
+.jujutsukaisen{
+    background: url("../images/jujutsukaisen.jfif");
+    background-size: cover;
+}
+
+.myheroacademia{
+    background: url("../images/myhero.PNG");
+    background-size: cover;
+}
+
+.candyman{
+    background: url("../images/candyman.jpg");
+    background-size: cover;
+}
+
+.conjuringthedevilmademedoit{
+    background: url("../images/conjuringdevil.jpg");
+    background-size: cover;
+}
+
+.dontbreathe2{
+    background: url("../images/dontbreathe.jpg");
+    background-size: cover;
+}
+
+.escaperoom2{
+    background: url("../images/escape.jpg");
+    background-size: cover;
+}
+
+.quietplace2{
+    background: url("../images/quietplacept2.jpg");
+    background-size: cover;
+}
+
+.theforeverpurge{
+    background: url("../images/theforeverpurge.jpg");
+    background-size: cover;
+}
+
+.intheheights{
+    background: url("../images/intheheights.jpg");
+    background-size: cover;
+}
+
+.lastletterfromyourlover{
+    background: url("../images/lastletterfromyourloverposter.jpg");
+    background-size: cover;
+}
+
+.reminscence{
+    background: url("../images/reminiscence.jpg");
+    background-size: cover;
+}
+
+.toalltheboysalwaysandforever{
+    background: url("../images/toalltheboysalwaysandforever.jpg");
+    background-size: cover;
+}
+
+.webrokeup{
+    background: url("../images/webrokeup.jpeg");
+    background-size: cover;
+}
+
+
+/* End of Allen Assigned Movie Cards*/
+
+
 .header-icon {
     width: 100%;
     height: 367px;
